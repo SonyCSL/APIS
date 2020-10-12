@@ -44,6 +44,7 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
 電力を融通する。電圧制御では難しかった特定ユーザ (バッテリ) 間での定量の電力融通を実施することが  
 可能となり、必要な電力量と電力価格を条件としたユーザ間のPP2P電力取引を実現することができる。  
 
+![キャプチャ](https://user-images.githubusercontent.com/71874910/95694571-c0c47080-0c6d-11eb-9935-89d62e43228c.PNG)
 
 
  - [apis-main](https://github.com/oes-github/apis-main)
