@@ -39,6 +39,13 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
 電力融通で電力配分を調整する。PP2P電力融通の特長は、電流制御により、送電電力量を調整することである。
 
 
+## Physical Peer to Peer(PP2P) Technology
+定電流制御によりバッテリ間での定量の電力融通を実現。電力が不足しているバッテリに対して、不足分だけの  
+電力を融通する。電圧制御では難しかった特定ユーザ (バッテリ) 間での定量の電力融通を実施することが  
+可能となり、必要な電力量と電力価格を条件としたユーザ間のPP2P電力取引を実現することができる。  
+
+
+
  - [apis-main](https://github.com/oes-github/apis-main)
  - [apis-web](https://github.com/oes-github/apis-web)
  - [apis-main-controller](https://github.com/oes-github/apis-main-controller)
