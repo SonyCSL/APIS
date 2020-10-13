@@ -55,9 +55,10 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
 ![キャプチャ](https://user-images.githubusercontent.com/71874910/95833927-3ff19b80-0d77-11eb-9bc7-1994e641d5fd.PNG)
 
 ## ソフトウェア
-上記のTechnologyを実現し、容易にDCマイクログリッドを構築可能なソフトウェアを公開する。
+上記のTechnologyを実現し、容易にDCマイクログリッドを構築可能な以下のソフトウェアを公開する。
 
  - [apis-main](https://github.com/oes-github/apis-main)
+ 　自律分散制御で双方向の電力融通を実現するメインソフトウェア　　
  - [apis-web](https://github.com/oes-github/apis-web)
  - [apis-main-controller](https://github.com/oes-github/apis-main-controller)
  - [apis-emulator](https://github.com/oes-github/apis-emulator)
