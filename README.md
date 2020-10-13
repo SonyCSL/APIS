@@ -52,6 +52,8 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
 (時間帯、電力量、電力価格など) に合わせた電力融通を実施する。バッテリシステムごとの自由な電力融通の  
 条件設定が可能、また条件を時間帯ごとのダイナミックに変えることができる柔軟な電力取引システムである。  
 
+![キャプチャ](https://user-images.githubusercontent.com/71874910/95833927-3ff19b80-0d77-11eb-9bc7-1994e641d5fd.PNG)
+
 
  - [apis-main](https://github.com/oes-github/apis-main)
  - [apis-web](https://github.com/oes-github/apis-web)
