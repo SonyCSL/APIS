@@ -104,3 +104,6 @@ apis-emulatorの代わりにapis-dcdc_batt_commを用いる。
  
    <br />  
  &emsp;各ソフトウェアのインストールと実行はそれぞれのリポジトリの"Installation"と"Running"を参照すること。
+ 
+ ## License
+&emsp;[Apache License Version 2.0](https://github.com/oes-github/APIS/blob/master/LICENSE)
