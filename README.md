@@ -57,7 +57,7 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
 ## ソフトウェア
 上記のTechnologyを実現し、容易にDCマイクログリッドを構築可能なソフトウェアを公開する。
 
-###　▼ハードウェアエミュレーターを用いたシミュレーションに必要なソフトウェア 
+### ▼ハードウェアエミュレーターを用いたシミュレーションに必要なソフトウェア 
  - [apis-main](https://github.com/oes-github/apis-main)  
  　自律分散制御で双方向の電力融通を実現するメインソフトウェア  
  - [apis-main_controller](https://github.com/SonyCSL/apis-main_controller)   
@@ -67,7 +67,7 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
  - [apis-emulator](https://github.com/oes-github/apis-emulator)  
  　DC/DC ConverterやBatteryなどのハードウェアをエミュレートするソフトウェア  
   
- ###　▼実際のDC/DC ConverterやBatteryを用いた電力融通を行うために必要なソフトウェア 
+### ▼実際のDC/DC ConverterやBatteryを用いた電力融通を行うために必要なソフトウェア 
  - [apis-main](https://github.com/oes-github/apis-main)  
  　自律分散制御で双方向の電力融通を実現するメインソフトウェア  
  - [apis-main_controller](https://github.com/SonyCSL/apis-main_controller)   
