@@ -90,22 +90,14 @@ $ make run
 
  &emsp;各ソフトウェア実行後、ブラウザで0.0.0.0:4382/にアクセスするとシミュレーション画面が表示される。  
  <br />  
- <br />  
  
  &emsp;各ソフトウェアの個別のインストールと実行はそれぞれのリポジトリの"Installation"と"Running"を参照すること。  
  
  
   
 ### ▼実際のDC/DC ConverterやBatteryを用いた電力融通を行うために必要なソフトウェアとハードウェア情報
- - [apis-main](https://github.com/oes-github/apis-main)  
- 自律分散制御で双方向の電力融通を実現するメインソフトウェア  
- 詳細はapis-mainの[Documentation](https://github.com/SonyCSL/apis-main/blob/master/doc/jp/apis-main_specification.md)参照すること。  
- - [apis-main_controller](https://github.com/SonyCSL/apis-main_controller)   
- 各ノードにインストールされたapis-mainの状況や各ノード間の電力融通の状況を可視化するソフトウェア  
- 詳細はapis-main_controllerの[Documentation](https://github.com/SonyCSL/apis-main_controller/blob/master/doc/jp/apis-main_controller_specification.md)参照すること。  
- - [apis-web](https://github.com/oes-github/apis-web)  
- 可視化に必要な情報をapis-mainから取得し、apis-main_controllerに提供するソフトウェア  
- 詳細はapis-webの[Documentation](https://github.com/SonyCSL/apis-web/blob/master/doc/jp/apis-web_specification.md)参照すること。  
+apis-emulatorの代わりにapis-dcdc_batt_commを用いる。
+ 
  - [apis-dcdc_batt_comm](https://github.com/oes-github/apis-dcdc_batt_comm)  
  DC/DC ConverterやBattery等を制御するデバイスドライバー  
  - ハードウェア情報
