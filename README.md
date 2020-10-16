@@ -89,6 +89,7 @@ $ make run
 ```
 
  &emsp;各ソフトウェア実行後、ブラウザで0.0.0.0:4382/にアクセスすると以下のようなシミュレーション画面が表示される。  
+ &emsp;Global Modeを "Run"にセットすることで電力融通のシミュレーションを行うことができる。
  
  ![キャプチャ](https://user-images.githubusercontent.com/71874910/96272423-0932b400-1009-11eb-9a90-f9e5bd49baef.PNG)
  
