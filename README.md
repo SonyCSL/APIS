@@ -67,9 +67,10 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
  - [apis-emulator](https://github.com/oes-github/apis-emulator)  
  　DC/DC ConverterやBatteryなどのハードウェアをエミュレートするソフトウェア  
   
-  <br />  
+ <br />  
  &emsp;各ソフトウェアのインストールと実行はそれぞれのリポジトリの"Installation"と"Running"を参照すること。
-  
+ <br />  
+ <br />  
   
 ### ▼実際のDC/DC ConverterやBatteryを用いた電力融通を行うために必要なソフトウェアとハードウェア情報
  - [apis-main](https://github.com/oes-github/apis-main)  
