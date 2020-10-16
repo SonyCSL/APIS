@@ -54,6 +54,9 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
 
 ![キャプチャ](https://user-images.githubusercontent.com/71874910/95833927-3ff19b80-0d77-11eb-9bc7-1994e641d5fd.PNG)
 
+ <br />  
+ <br />  
+
 ## ソフトウェア
 上記のTechnologyを実現し、容易にDCマイクログリッドを構築可能なソフトウェアを公開する。
 
