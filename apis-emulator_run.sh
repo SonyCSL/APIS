@@ -2,4 +2,4 @@
 
 cd apis-emulator
 source apis-emulator/bin/activate
-python2 startEmul.py 4
+python startEmul.py 4
