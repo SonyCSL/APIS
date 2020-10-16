@@ -114,3 +114,7 @@ apis-emulatorの代わりにapis-dcdc_batt_commを用いる。
  
  ## License
 &emsp;[Apache License Version 2.0](https://github.com/oes-github/APIS/blob/master/LICENSE)
+
+
+## Notice
+&emsp;[Notice](https://github.com/oes-github/APIS/blob/master/NOTICE.md)
