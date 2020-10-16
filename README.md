@@ -71,12 +71,30 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
  DC/DC ConverterやBatteryなどのハードウェアをエミュレートするソフトウェア  
  詳細はapis-emulatorの[Documentation](https://github.com/SonyCSL/apis-emulator/blob/master/doc/jp/apis-emulator_specification.md)参照すること。  
   
- <br />  
- &emsp;各ソフトウェアのインストールと実行はそれぞれのリポジトリの"Installation"と"Running"を参照すること。  
+ ## Installation  
  
+ ```bash
+$ git clone https://github.com/SonyCSL/APIS.git
+$ cd APIS
+$ make build
+$ bash main_controller_emulator_installer.sh
+```
+
+## Running  
+
+ ```bash
+$ bash apis-emulator_run.sh
+$ bash apis-main_controller.sh
+$ make run
+```
+
  &emsp;各ソフトウェア実行後、ブラウザで0.0.0.0:4382/にアクセスするとシミュレーション画面が表示される。  
  <br />  
  <br />  
+ 
+ &emsp;各ソフトウェアの個別のインストールと実行はそれぞれのリポジトリの"Installation"と"Running"を参照すること。  
+ 
+ 
   
 ### ▼実際のDC/DC ConverterやBatteryを用いた電力融通を行うために必要なソフトウェアとハードウェア情報
  - [apis-main](https://github.com/oes-github/apis-main)  
