@@ -76,3 +76,4 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
  　可視化に必要な情報をapis-mainから取得し、apis-main_controllerに提供するソフトウェア  
  - [apis-dcdc_batt_comm](https://github.com/oes-github/apis-dcdc_batt_comm)  
 　 DC/DC ConverterやBattery等を制御するデバイスドライバー  
+ - ハードウェア情報
