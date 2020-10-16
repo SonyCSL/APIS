@@ -89,6 +89,9 @@ $ make run
 ```
 
  &emsp;各ソフトウェア実行後、ブラウザで0.0.0.0:4382/にアクセスするとシミュレーション画面が表示される。  
+ 
+ ![キャプチャ](https://user-images.githubusercontent.com/71874910/96272423-0932b400-1009-11eb-9a90-f9e5bd49baef.PNG)
+ 
  <br />  
  
  &emsp;各ソフトウェアの個別のインストールと実行はそれぞれのリポジトリの"Installation"と"Running"を参照すること。  
