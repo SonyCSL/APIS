@@ -60,16 +60,16 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
 ### ▼ハードウェアエミュレーターを用いた電力融通シミュレーションを行うために必要なソフトウェア 
  - [apis-main](https://github.com/oes-github/apis-main)  
  各ノードにインストールされ自律分散制御で双方向の電力融通を実現するメインソフトウェア  
- 詳細はapis-mainリポジトリの[Documentation](https://github.com/SonyCSL/apis-main/blob/master/doc/jp/apis-main_specification.md)参照すること。  
+ 詳細はapis-mainの[Documentation](https://github.com/SonyCSL/apis-main/blob/master/doc/jp/apis-main_specification.md)参照すること。  
  - [apis-main_controller](https://github.com/SonyCSL/apis-main_controller)   
  各ノードにインストールされたapis-mainの状況や各ノード間の電力融通の状況を可視化するソフトウェア  
- 詳細はapis-main_controllerリポジトリの[Documentation](https://github.com/SonyCSL/apis-main_controller/blob/master/doc/jp/apis-main_controller_specification.md)参照すること。 
+ 詳細はapis-main_controllerの[Documentation](https://github.com/SonyCSL/apis-main_controller/blob/master/doc/jp/apis-main_controller_specification.md)参照すること。 
  - [apis-web](https://github.com/oes-github/apis-web)  
  可視化に必要な情報をapis-mainから取得し、apis-main_controllerに提供するソフトウェア  
- 詳細はapis-webリポジトリの[Documentation](https://github.com/SonyCSL/apis-web/blob/master/doc/jp/apis-web_specification.md)参照すること。 
+ 詳細はapis-webの[Documentation](https://github.com/SonyCSL/apis-web/blob/master/doc/jp/apis-web_specification.md)参照すること。 
  - [apis-emulator](https://github.com/oes-github/apis-emulator)  
  DC/DC ConverterやBatteryなどのハードウェアをエミュレートするソフトウェア  
- 詳細はapis-emulatorリポジトリの[Documentation](https://github.com/SonyCSL/apis-emulator/blob/master/doc/jp/apis-emulator_specification.md)参照すること。  
+ 詳細はapis-emulatorの[Documentation](https://github.com/SonyCSL/apis-emulator/blob/master/doc/jp/apis-emulator_specification.md)参照すること。  
   
  <br />  
  &emsp;各ソフトウェアのインストールと実行はそれぞれのリポジトリの"Installation"と"Running"を参照すること。  
@@ -81,13 +81,13 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
 ### ▼実際のDC/DC ConverterやBatteryを用いた電力融通を行うために必要なソフトウェアとハードウェア情報
  - [apis-main](https://github.com/oes-github/apis-main)  
  自律分散制御で双方向の電力融通を実現するメインソフトウェア  
- 詳細はapis-mainリポジトリの[Documentation](https://github.com/SonyCSL/apis-main/blob/master/doc/jp/apis-main_specification.md)参照すること。  
+ 詳細はapis-mainの[Documentation](https://github.com/SonyCSL/apis-main/blob/master/doc/jp/apis-main_specification.md)参照すること。  
  - [apis-main_controller](https://github.com/SonyCSL/apis-main_controller)   
  各ノードにインストールされたapis-mainの状況や各ノード間の電力融通の状況を可視化するソフトウェア  
- 詳細はapis-main_controllerリポジトリの[Documentation](https://github.com/SonyCSL/apis-main_controller/blob/master/doc/jp/apis-main_controller_specification.md)参照すること。  
+ 詳細はapis-main_controllerの[Documentation](https://github.com/SonyCSL/apis-main_controller/blob/master/doc/jp/apis-main_controller_specification.md)参照すること。  
  - [apis-web](https://github.com/oes-github/apis-web)  
  可視化に必要な情報をapis-mainから取得し、apis-main_controllerに提供するソフトウェア  
- 詳細はapis-webリポジトリの[Documentation](https://github.com/SonyCSL/apis-web/blob/master/doc/jp/apis-web_specification.md)参照すること。  
+ 詳細はapis-webの[Documentation](https://github.com/SonyCSL/apis-web/blob/master/doc/jp/apis-web_specification.md)参照すること。  
  - [apis-dcdc_batt_comm](https://github.com/oes-github/apis-dcdc_batt_comm)  
  DC/DC ConverterやBattery等を制御するデバイスドライバー  
  - ハードウェア情報
