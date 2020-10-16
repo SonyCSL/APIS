@@ -83,8 +83,8 @@ $ bash main_controller_emulator_installer.sh
 ## Running  
 
  ```bash
-$ bash apis-emulator_run.sh
-$ bash apis-main_controller.sh
+$ bash apis-emulator_run.sh &
+$ bash apis-main_controller.sh &
 $ make run
 ```
 
