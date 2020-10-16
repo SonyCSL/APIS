@@ -75,8 +75,8 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
  詳細はapis-emulatorの[Documentation](https://github.com/SonyCSL/apis-emulator/blob/master/doc/jp/apis-emulator_specification.md)参照すること。  
   
  ## Installation  
- 上記のソフトウェアを一括インストールする。
- 事前にmaven, make, JDKをインストールされていることが前提である。また、python 2.7 を使用する。 
+ 上記のソフトウェアを一括インストールする。  
+ 事前にmaven, make, JDKをインストールされていることが前提である。また、python 2.7 を使用する。   
  
  ```bash
 $ git clone https://github.com/SonyCSL/APIS.git
