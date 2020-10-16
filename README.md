@@ -88,7 +88,7 @@ $ bash apis-main_controller_run.sh &
 $ make run
 ```
 
- &emsp;各ソフトウェア実行後、ブラウザで0.0.0.0:4382/にアクセスするとシミュレーション画面が表示される。  
+ &emsp;各ソフトウェア実行後、ブラウザで0.0.0.0:4382/にアクセスすると以下のようなシミュレーション画面が表示される。  
  
  ![キャプチャ](https://user-images.githubusercontent.com/71874910/96272423-0932b400-1009-11eb-9a90-f9e5bd49baef.PNG)
  
@@ -96,6 +96,7 @@ $ make run
  
  &emsp;各ソフトウェアの個別のインストールと実行はそれぞれのリポジトリの"Installation"と"Running"を参照すること。  
  
+  <br />  
  
   
 ### ▼実際のDC/DC ConverterやBatteryを用いた電力融通を行うために必要なソフトウェアとハードウェア情報
@@ -105,8 +106,6 @@ apis-emulatorの代わりにapis-dcdc_batt_commを用いる。
  DC/DC ConverterやBattery等を制御するデバイスドライバー  
  - ハードウェア情報
  
-   <br />  
- &emsp;各ソフトウェアのインストールと実行はそれぞれのリポジトリの"Installation"と"Running"を参照すること。
  
  ## License
 &emsp;[Apache License Version 2.0](https://github.com/oes-github/APIS/blob/master/LICENSE)
