@@ -57,14 +57,14 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
 ## ソフトウェア
 上記のTechnologyを実現し、容易にDCマイクログリッドを構築可能なソフトウェアを公開する。
 
- - [apis-main](https://github.com/oes-github/apis-main)　　
- 　自律分散制御で双方向の電力融通を実現するメインソフトウェア　　
- - [apis-main-controller](https://github.com/oes-github/apis-main-controller)　　  
- 　各ノードにインストールされたapis-mainの状況や各ノード間の電力融通の状況を可視化するソフトウェア
- - [apis-web](https://github.com/oes-github/apis-web)　　
- 　可視化に必要な情報をapis-mainから取得し、apis-main_controllerに提供するソフトウェア
- - [apis-emulator](https://github.com/oes-github/apis-emulator)　　
- 　DC/DC ConverterやBatteryなどのハードウェアをエミュレートするソフトウェア　　
+ - [apis-main](https://github.com/oes-github/apis-main)  
+ 　自律分散制御で双方向の電力融通を実現するメインソフトウェア  
+ - [apis-main-controller](https://github.com/oes-github/apis-main-controller)   
+ 　各ノードにインストールされたapis-mainの状況や各ノード間の電力融通の状況を可視化するソフトウェア  
+ - [apis-web](https://github.com/oes-github/apis-web)  
+ 　可視化に必要な情報をapis-mainから取得し、apis-main_controllerに提供するソフトウェア  
+ - [apis-emulator](https://github.com/oes-github/apis-emulator)  
+ 　DC/DC ConverterやBatteryなどのハードウェアをエミュレートするソフトウェア  
   
   
  - [apis-dcdc_batt_comm](https://github.com/oes-github/apis-dcdc_batt_comm)  
