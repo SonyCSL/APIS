@@ -59,7 +59,7 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
 
  - [apis-main](https://github.com/oes-github/apis-main)  
  　自律分散制御で双方向の電力融通を実現するメインソフトウェア  
- - [apis-main-controller](https://github.com/oes-github/apis-main-controller)   
+ - [apis-main_controller](https://github.com/SonyCSL/apis-main_controller)   
  　各ノードにインストールされたapis-mainの状況や各ノード間の電力融通の状況を可視化するソフトウェア  
  - [apis-web](https://github.com/oes-github/apis-web)  
  　可視化に必要な情報をapis-mainから取得し、apis-main_controllerに提供するソフトウェア  
