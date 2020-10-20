@@ -76,9 +76,9 @@ run-apis-main: run-apis-main-1 run-apis-main-2 run-apis-main-3 run-apis-main-4
 run-apis-web: ${APIS_WEB_JAR}
 	cd apis-web/exe/ && sh start.sh
 run-apis-emulator: ${APIS_EMULATOR_VENV}
-	cd apis-emulator/ && source venv/bin/activate && ./startEmul.py 4 &
+	cd apis-emulator/ && . venv/bin/activate && ./startEmul.py 4 &
 run-apis-main_controller: ${APIS_MAIN_CONTROLLER_VENV}
-	cd apis-main_controller/ && source venv/bin/activate && ./startMain.py &
+	cd apis-main_controller/ && . venv/bin/activate && ./startMain.py &
 
 run: run-apis-emulator run-apis-main run-apis-web run-apis-main_controller
 
