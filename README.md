@@ -105,7 +105,7 @@ $ make run
  ## Stop
 
  ```bash
-$ make 
+$ make stop
 ```
   
 ### ▼実際のDC/DC ConverterやBatteryを用いた電力融通を行うために必要なソフトウェアとハードウェア情報
