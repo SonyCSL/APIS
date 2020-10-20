@@ -76,7 +76,7 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
   
  ## Installation  
  上記のソフトウェアを一括インストールする。  
- 事前にmaven, make, JDKがインストールされていることを前提とする。また、python 2.7 を使用する。   
+ 事前にmaven, make, JDK, virtualenvがインストールされていることを前提とする。また、python 2.7 を使用する。   
  
  ```bash
 $ git clone https://github.com/SonyCSL/APIS.git
