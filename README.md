@@ -101,6 +101,12 @@ $ make run
  
   <br />  
  
+ 
+ ## Stop
+
+ ```bash
+$ make 
+```
   
 ### ▼実際のDC/DC ConverterやBatteryを用いた電力融通を行うために必要なソフトウェアとハードウェア情報
 apis-emulatorの代わりにapis-dcdc_batt_commを用いる。
