@@ -82,14 +82,11 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
 $ git clone https://github.com/SonyCSL/APIS.git
 $ cd APIS
 $ make build
-$ bash main_controller_emulator_installer.sh
 ```
 
 ## Running  
 
  ```bash
-$ bash apis-emulator_run.sh &
-$ bash apis-main_controller_run.sh &
 $ make run
 ```
 
