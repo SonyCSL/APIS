@@ -116,7 +116,7 @@ $ make run
   <br />  
  
  
- ## Stop
+ ## Stopping
 
  ```bash
 $ make stop
