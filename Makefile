@@ -76,9 +76,9 @@ run-apis-main: run-apis-main-1 run-apis-main-2 run-apis-main-3 run-apis-main-4
 run-apis-web:
 	@sh runner.sh apis-web/exe/ 'sh start.sh'
 run-apis-emulator:
-	@sh runner.sh apis-emulator/ 'source venv/bin/activate && ./startEmul.py 4'
+	@sh runner.sh apis-emulator/ '. venv/bin/activate && ./startEmul.py 4'
 run-apis-main_controller:
-	@sh runner.sh apis-main_controller/ 'source venv/bin/activate && ./startMain.py'
+	@sh runner.sh apis-main_controller/ '. venv/bin/activate && ./startMain.py'
 
 run: run-apis-emulator run-apis-main run-apis-web run-apis-main_controller
 
