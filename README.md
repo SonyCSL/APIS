@@ -75,8 +75,22 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
  詳細はapis-emulatorの[Documentation](https://github.com/SonyCSL/apis-emulator/blob/master/doc/jp/apis-emulator_specification.md)参照すること。  
   
  ## Installation  
- 上記のソフトウェアを一括インストールする。  
- 事前にmaven, make, JDK, virtualenvがインストールされていることを前提とする。また、python 2.7 を使用する。   
+ 
+ [事前準備]   
+ 必要なソフトウェアがインストールされていることを前提とする。  
+ 以下はUbuntu 18.04の場合の事前準備である。 
+
+```bash
+$ sudo apt install git
+$ sudo apt install make
+$ sudo apt install maven
+$ sudo apt install groovy
+$ sudo apt install virtualenv
+$ sudo apt install python
+$ sudo apt install python-pip
+```
+
+ APISのソフトウェアを一括インストールする。  
  
  ```bash
 $ git clone https://github.com/SonyCSL/APIS.git
