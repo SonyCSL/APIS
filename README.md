@@ -89,6 +89,7 @@ $ sudo apt install virtualenv
 $ sudo apt install python
 $ sudo apt install python-pip
 ```
+※JDKがインストールされていなければインストールすること。
 
 [APIS一括インストール]  
  上記のAPISのソフトウェアを一括インストールする。  
