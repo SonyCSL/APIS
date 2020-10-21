@@ -14,9 +14,9 @@ if [ -n "$DIRECTORY" ] ; then
 fi
 
 UNAME=$(uname)
-if [ "$UNAME" == 'Darwin' ] ; then
+if [ "$UNAME" = 'Darwin' ] ; then
 	osascript -e "tell app \"Terminal\" to do script \"cd $DIR && $COMMAND\""
-elif [ "$UNAME" == 'Linux' ] ; then
+elif [ "$UNAME" = 'Linux' ] ; then
 	if type xterm > /dev/null 2>&1 ; then
 		xterm -hold -e "cd $DIR && $COMMAND"
 	elif type gnome-terminal > /dev/null 2>&1 ; then

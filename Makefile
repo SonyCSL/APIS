@@ -1,5 +1,5 @@
 
-GIT_BASE_URL=https://oes-github:0penEnergySystems@github.com/SonyCSL
+GIT_BASE_URL=git@oes-git:apis-oss
 
 
 apis-bom:
@@ -73,6 +73,10 @@ run-apis-main-3:
 run-apis-main-4:
 	@sh runner.sh apis-main/exe/ 'sh start4.sh'
 run-apis-main: run-apis-main-1 run-apis-main-2 run-apis-main-3 run-apis-main-4
+run-apis-ccc:
+	@sh runner.sh apis-ccc/exe/ 'sh start.sh'
+run-apis-log:
+	@sh runner.sh apis-log/exe/ 'sh start.sh'
 run-apis-web:
 	@sh runner.sh apis-web/exe/ 'sh start.sh'
 run-apis-emulator:
