@@ -90,6 +90,7 @@ $ sudo apt install python
 $ sudo apt install python-pip
 ```
 
+[APIS一括インストール]  
  APISのソフトウェアを一括インストールする。  
  
  ```bash
