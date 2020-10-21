@@ -79,6 +79,7 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
  [事前準備]   
  必要なソフトウェアがインストールされていることを前提とする。  
  以下はUbuntu 18.04の場合の事前準備例である。 
+ ※JDKがインストールされていなければインストールすること。  
 
 ```bash
 $ sudo apt install git
@@ -89,7 +90,6 @@ $ sudo apt install virtualenv
 $ sudo apt install python
 $ sudo apt install python-pip
 ```
-※JDKがインストールされていなければインストールすること。
 
 [APIS一括インストール]  
  上記のAPISのソフトウェアを一括インストールする。  
@@ -101,6 +101,7 @@ $ make build
 ```
 
 ## Running  
+APISのソフトウェアを一括で起動させる。  
 
  ```bash
 $ make run
@@ -119,6 +120,7 @@ $ make run
  
  
  ## Stopping
+ APISのソフトウェアを一括で停止させる。
 
  ```bash
 $ make stop
