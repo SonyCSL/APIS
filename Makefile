@@ -3,7 +3,7 @@ APIS_VERSION=3.0.0-a01
 
 GIT_BASE_URL=https://oes-github:0penEnergySystems@github.com/SonyCSL
 
-MAVEN_LOCAL_REPOSITORY:=$(shell mvn help:evaluate -Dexpression=settings.localRepository | grep -v '^\[INFO\]')
+MAVEN_LOCAL_REPOSITORY:=$(shell mvn help:evaluate -Dexpression=settings.localRepository | grep -v '[INFO]')
 
 APIS_BOM_POM=${MAVEN_LOCAL_REPOSITORY}/jp/co/sony/csl/dcoes/apis/apis-bom/${APIS_VERSION}/apis-bom-${APIS_VERSION}.pom
 APIS_COMMON_JAR=${MAVEN_LOCAL_REPOSITORY}/jp/co/sony/csl/dcoes/apis/apis-common/${APIS_VERSION}/apis-common-${APIS_VERSION}.jar
