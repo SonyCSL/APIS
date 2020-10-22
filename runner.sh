@@ -17,15 +17,15 @@ UNAME=$(uname)
 if [ "$UNAME" = 'Darwin' ] ; then
 	osascript -e "tell app \"Terminal\" to do script \"cd $DIR && $COMMAND\""
 elif [ "$UNAME" = 'Linux' ] ; then
-	if type xterm > /dev/null 2>&1 ; then
-		xterm -hold -e "cd $DIR && $COMMAND"
-	elif type gnome-terminal > /dev/null 2>&1 ; then
+	if type gnome-terminal > /dev/null 2>&1 ; then
 		#gnome-terminal --working-directory=$DIR -- bash -c "$COMMAND; bash"
 		gnome-terminal -- bash -c "cd $DIR && $COMMAND; bash"
 	elif type konsole > /dev/null 2>&1 ; then
-		konsole --hold -e "cd $DIR && $COMMAND"
+		konsole --hold -e "cd $DIR && $COMMAND" &
 	elif type xfce4-terminal > /dev/null 2>&1 ; then
-		xfce4-terminal --hold -e "cd $DIR && $COMMAND"
+		xfce4-terminal --hold -e "cd $DIR && $COMMAND" &
+	elif type xterm > /dev/null 2>&1 ; then
+		xterm -hold -e "cd $DIR && $COMMAND" &
 	else
 		echo 'Your platform is not supported : no xterm, gnome-terminal, konsole, or xfce4-terminal'
 		sh -c "cd $DIR && $COMMAND &"
