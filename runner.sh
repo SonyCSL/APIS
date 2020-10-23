@@ -28,9 +28,9 @@ elif [ "$UNAME" = 'Linux' ] ; then
 		xterm -hold -e "cd $DIR && $COMMAND" &
 	else
 		echo 'Your platform is not supported : no xterm, gnome-terminal, konsole, or xfce4-terminal'
-		sh -c "cd $DIR && $COMMAND &"
+		sh -c "cd $DIR && $COMMAND" &
 	fi
 else
 	echo "Your platform is not supported : $(uname -a)"
-	sh -c "cd $DIR && $COMMAND &"
+	sh -c "cd $DIR && $COMMAND" &
 fi
