@@ -99,10 +99,9 @@ $ git clone https://github.com/SonyCSL/APIS.git
 $ cd APIS
 $ make build
 ```
-
-<span style="color: green"> 
+<font color="green"> 
 ※make buildやmake runでErrorが発生する場合は、一度Termainalを新しく開き直した後で実行すること。
-</span>
+</font>
  
 ## Running  
 APISのソフトウェアを一括で起動させる。  
