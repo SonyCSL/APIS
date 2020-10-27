@@ -60,7 +60,7 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
 ## Software  
 The software that realizes the above technology and makes it possible to easily construct a DC microgrid is released.  
 
-### Software required to simulate energy exchange using a hardware emulator 
+### ▼ Software required to simulate energy exchange using a hardware emulator 
  - [apis-main](https://github.com/oes-github/apis-main)  
   Software installed on each node to provide bi-directional energy exchange with autonomous decentralized control   
   See apis-main's [Documentation](https://github.com/SonyCSL/apis-main/blob/master/doc/jp/apis-main_specification.md) for more information.  
@@ -139,7 +139,7 @@ Stop all of the above APIS related software at once.
 $ make stop
 ```
   
-### Software and hardware information required for energy exchange using an actual DC/DC converter and battery
+### ▼ Software and hardware information required for energy exchange using an actual DC/DC converter and battery
 Use apis-dcdc_batt_comm instead of apis-emulator.  
  
  - [apis-dcdc_batt_comm](https://github.com/oes-github/apis-dcdc_batt_comm)  
