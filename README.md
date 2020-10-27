@@ -99,6 +99,7 @@ $ sudo apt install python-pip
 
 [APIS一括インストール]  
  上記のAPISのソフトウェアを一括インストールする。  
+ ※各ソフトウェアの個別のインストールと実行はそれぞれのリポジトリの"Installation"と"Running"を参照すること。  
  
  ```bash
 $ git clone https://github.com/SonyCSL/APIS.git
@@ -121,10 +122,6 @@ $ make run
  ![キャプチャ](https://user-images.githubusercontent.com/71874910/96272423-0932b400-1009-11eb-9a90-f9e5bd49baef.PNG)
  
  <br />  
- 
- &emsp;各ソフトウェアの個別のインストールと実行はそれぞれのリポジトリの"Installation"と"Running"を参照すること。  
- 
-  <br />  
  
  
  ## Stopping
