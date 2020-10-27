@@ -80,6 +80,7 @@ The software that realizes the above technology and makes it possible to easily 
   The above software has been tested on the following operating systems.  
   - Ubuntu 16.04, 18.04, 20.04  
   - CentOS 7, 8   
+  - Mac (Catalina)
  
  　* Virtual environments are not supported.  
  
