@@ -83,10 +83,10 @@ The software that realizes the above technology and makes it possible to easily 
  
  　* Virtual environments are not supported.  
  
- [事前準備]   
- 必要なソフトウェアがインストールされていることを前提とする。  
- 以下はUbuntu 18.04の場合の事前準備例である。  
- ※JDKがインストールされていなければインストールすること。  
+ [Preparation]   
+  It is assumed that the necessary software are installed.    
+  The following is an example of advance preparation for Ubuntu 18.04.   
+  * Install the JDK if it's not already installed.   
 
 ```bash
 $ sudo apt install git
