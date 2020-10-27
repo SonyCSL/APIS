@@ -108,10 +108,10 @@ $ cd APIS
 $ make build
 ```
 
-※make buildやmake runでErrorが発生する場合は、一度Termainalを新しく開き直した後で実行すること。
+* If an error occurs with the "make build" or "make run" command, open the terminal again and run it.  
  
 ## Running  
-APISのソフトウェアを一括で起動させる。  
+Run all of the above APIS related software at once.    
 
  ```bash
 $ make run
