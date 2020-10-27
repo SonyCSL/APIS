@@ -66,21 +66,21 @@ The software that realizes the above technology and makes it possible to easily 
   See apis-main's [Documentation](https://github.com/SonyCSL/apis-main/blob/master/doc/jp/apis-main_specification.md) for more information.  
  - [apis-main_controller](https://github.com/SonyCSL/apis-main_controller)   
   Software that visualizes the status of apis-main installed on each node and the status of energy exchange between nodes  
-  See apis-main_controller's [Documentation](https://github.com/SonyCSL/apis-main_controller/blob/master/doc/jp/apis-main_controller_specification.md)for more information. 
+  See apis-main_controller's [Documentation](https://github.com/SonyCSL/apis-main_controller/blob/master/doc/jp/apis-main_controller_specification.md) for more information. 
  - [apis-web](https://github.com/oes-github/apis-web)  
- 可視化に必要な情報をapis-mainから取得し、apis-main_controllerに提供するソフトウェア  
- 詳細はapis-webの[Documentation](https://github.com/SonyCSL/apis-web/blob/master/doc/jp/apis-web_specification.md)参照すること。 
+  Software that acquires necessary information for visualization from apis-main and provides it to apis-main_controller  
+  See apis-web's [Documentation](https://github.com/SonyCSL/apis-web/blob/master/doc/jp/apis-web_specification.md) for more information. 
  - [apis-emulator](https://github.com/oes-github/apis-emulator)  
- DC/DC ConverterやBatteryなどのハードウェアをエミュレートするソフトウェア  
- 詳細はapis-emulatorの[Documentation](https://github.com/SonyCSL/apis-emulator/blob/master/doc/jp/apis-emulator_specification.md)参照すること。  
+  Software to emulate hardware such as DC/DC Converter and Battery   
+  See apis-emulator's [Documentation](https://github.com/SonyCSL/apis-emulator/blob/master/doc/jp/apis-emulator_specification.md) for more information.  
   
  ## Installation  
  
-  [動作環境]  
+  [Operating Environment]  
   - Ubuntu 16.04, 18.04, 20.04  
   - CentOS 7, 8   
  
- ※仮想環境は非サポート。  
+ 　* Virtual environments are not supported.  
  
  [事前準備]   
  必要なソフトウェアがインストールされていることを前提とする。  
