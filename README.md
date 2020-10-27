@@ -62,11 +62,11 @@ The software that realizes the above technology and makes it possible to easily 
 
 ### Software required to simulate energy exchange using a hardware emulator 
  - [apis-main](https://github.com/oes-github/apis-main)  
-  Main software installed on each node to provide bi-directional energy exchange with autonomous decentralized control   
+  The main software installed on each node to provide bi-directional energy exchange with autonomous decentralized control   
   See apis-main's [Documentation](https://github.com/SonyCSL/apis-main/blob/master/doc/jp/apis-main_specification.md) for more information.  
  - [apis-main_controller](https://github.com/SonyCSL/apis-main_controller)   
- 各ノードにインストールされたapis-mainの状況や各ノード間の電力融通の状況を可視化するソフトウェア  
- 詳細はapis-main_controllerの[Documentation](https://github.com/SonyCSL/apis-main_controller/blob/master/doc/jp/apis-main_controller_specification.md)参照すること。 
+  Software that visualizes the status of apis-main installed on each node and the status of energy exchange between nodes  
+  See apis-main_controller's [Documentation](https://github.com/SonyCSL/apis-main_controller/blob/master/doc/jp/apis-main_controller_specification.md)for more information. 
  - [apis-web](https://github.com/oes-github/apis-web)  
  可視化に必要な情報をapis-mainから取得し、apis-main_controllerに提供するソフトウェア  
  詳細はapis-webの[Documentation](https://github.com/SonyCSL/apis-web/blob/master/doc/jp/apis-web_specification.md)参照すること。 
