@@ -125,7 +125,7 @@ $ make run
  
  ![キャプチャ](https://user-images.githubusercontent.com/71874910/97250475-602a5b80-1849-11eb-95bd-b8c1cac57c61.PNG)
  
- &emsp;Global Simulate energy exchange with setting Global Mode to "Run".  
+ &emsp;Simulate energy exchange with setting Global Mode to "Run".  
  
  ![キャプチャ](https://user-images.githubusercontent.com/71874910/96272423-0932b400-1009-11eb-9a90-f9e5bd49baef.PNG)
  
@@ -139,8 +139,8 @@ Stop all of the above APIS related software at once.
 $ make stop
 ```
   
-### ▼実際のDC/DC ConverterやBatteryを用いた電力融通を行うために必要なソフトウェアとハードウェア情報
-apis-emulatorの代わりにapis-dcdc_batt_commを用いる。
+### Software and hardware information required for energy exchange using an actual DC/DC converter and a battery
+Use apis-dcdc_batt_comm instead of apis-emulator.  
  
  - [apis-dcdc_batt_comm](https://github.com/oes-github/apis-dcdc_batt_comm)  
  DC/DC ConverterやBattery等を制御するデバイスドライバー  
