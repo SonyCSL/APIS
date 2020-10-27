@@ -121,11 +121,11 @@ $ make run
  
   <br />  
  
-  &emsp;一度CacheをFlashする。
+  &emsp;Flash an cache once.
  
  ![キャプチャ](https://user-images.githubusercontent.com/71874910/97250475-602a5b80-1849-11eb-95bd-b8c1cac57c61.PNG)
  
- &emsp;Global Modeを "Run"にセットすることで電力融通のシミュレーションを行うことができる。
+ &emsp;Global Simulate energy exchange with setting Global Mode to "Run".  
  
  ![キャプチャ](https://user-images.githubusercontent.com/71874910/96272423-0932b400-1009-11eb-9a90-f9e5bd49baef.PNG)
  
@@ -133,7 +133,7 @@ $ make run
  
  
  ## Stopping
- APISのソフトウェアを一括で停止させる。
+Stop all of the above APIS related software at once.   
 
  ```bash
 $ make stop
