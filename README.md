@@ -117,7 +117,7 @@ Run all of the above APIS related software at once.
 $ make run
 ```
 
- &emsp;各ソフトウェア実行後、ブラウザで0.0.0.0:4382/にアクセスすると以下のようなシミュレーション画面が表示される。  
+ &emsp;After running each software, access 0.0.0.0:4382/ in your browser to display the following simulation screen.    
  
   <br />  
  
