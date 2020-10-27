@@ -60,7 +60,7 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
 ## Software  
 The software that realizes the above technology and makes it possible to easily construct a DC microgrid is released.  
 
-### ▼ハードウェアエミュレーターを用いた電力融通シミュレーションを行うために必要なソフトウェア 
+### Software required to simulate power distribution using a hardware emulator 
  - [apis-main](https://github.com/oes-github/apis-main)  
  各ノードにインストールされ自律分散制御で双方向の電力融通を実現するメインソフトウェア  
  詳細はapis-mainの[Documentation](https://github.com/SonyCSL/apis-main/blob/master/doc/jp/apis-main_specification.md)参照すること。  
