@@ -57,8 +57,8 @@ DCマイクログリッドを構成する。バッテリシステム毎に、発
  <br />  
  <br />  
 
-## ソフトウェア
-上記のTechnologyを実現し、容易にDCマイクログリッドを構築可能なソフトウェアを公開する。
+## Software  
+The software that realizes the above technology and makes it possible to easily construct a DC microgrid is released.  
 
 ### ▼ハードウェアエミュレーターを用いた電力融通シミュレーションを行うために必要なソフトウェア 
  - [apis-main](https://github.com/oes-github/apis-main)  
