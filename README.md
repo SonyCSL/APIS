@@ -146,9 +146,9 @@ Use apis-dcdc_batt_comm instead of apis-emulator.
  - [apis-dcdc_batt_comm](https://github.com/oes-github/apis-dcdc_batt_comm)  
   Device drivers to control DC/DC converters and  batteries    
   See apis-dcdc_batt_comm's [Documentation](https://github.com/SonyCSL/apis-dcdc_batt_comm/blob/master/doc/jp/apis-dcdc_batt_comm_specification.md) for more information. 
- - Hardware Information
+ - [Hardware Information](https://github.com/SonyCSL/apis-hw-info)
  
- 
+
  ## License
 &emsp;[Apache License Version 2.0](https://github.com/oes-github/APIS/blob/master/LICENSE)
 
