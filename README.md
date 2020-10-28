@@ -140,7 +140,7 @@ Stop all of the above APIS related software at once.
 $ make stop
 ```
   
-### ▼ Software and hardware information required for energy exchange using an actual DC/DC converter and battery
+### ▼ Software and hardware information required for energy exchange using actual DC/DC converters and batteries
 Use apis-dcdc_batt_comm instead of apis-emulator.  
  
  - [apis-dcdc_batt_comm](https://github.com/oes-github/apis-dcdc_batt_comm)  
