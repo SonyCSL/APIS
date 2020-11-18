@@ -20,6 +20,8 @@ apis-main_controller:
 	git clone $(GIT_BASE_URL)/apis-main_controller.git
 apis-service_center:
 	git clone $(GIT_BASE_URL)/apis-service_center.git
+apis-tester:
+	git clone $(GIT_BASE_URL)/apis-tester.git
 
 
 build-apis-bom: apis-bom
@@ -40,8 +42,10 @@ build-apis-main_controller: apis-main_controller
 	cd apis-main_controller/ && sh venv.sh
 build-apis-service_center: apis-service_center
 	cd apis-service_center/ && sh venv.sh
+build-apis-tester: apis-tester
+	cd apis-tester/ && sh venv.sh
 
-build: build-apis-bom build-apis-common build-apis-main build-apis-ccc build-apis-log build-apis-web build-apis-emulator build-apis-main_controller build-apis-service_center 
+build: build-apis-bom build-apis-common build-apis-main build-apis-ccc build-apis-log build-apis-web build-apis-emulator build-apis-main_controller build-apis-service_center build-apis-tester
 
 
 update-apis-bom: apis-bom
@@ -62,8 +66,10 @@ update-apis-main_controller: apis-main_controller
 	cd apis-main_controller/ && git pull
 update-apis-service_center: apis-service_center
 	cd apis-service_center/ && git pull
+update-apis-tester: apis-tester
+	cd apis-tester/ && git pull
 
-update: update-apis-bom update-apis-common update-apis-main update-apis-ccc update-apis-log update-apis-web update-apis-emulator update-apis-main_controller update-apis-service_center 
+update: update-apis-bom update-apis-common update-apis-main update-apis-ccc update-apis-log update-apis-web update-apis-emulator update-apis-main_controller update-apis-service_center update-apis-tester
 
 
 clean-apis-bom:
@@ -84,8 +90,10 @@ clean-apis-main_controller:
 	cd apis-main_controller/ && rm -rf venv
 clean-apis-service_center:
 	cd apis-service_center/ && rm -rf venv
+clean-apis-tester:
+	cd apis-tester/ && rm -rf venv
 
-clean: clean-apis-bom clean-apis-common clean-apis-main clean-apis-ccc clean-apis-log clean-apis-web clean-apis-common clean-apis-bom clean-apis-emulator clean-apis-main_controller clean-apis-service_center 
+clean: clean-apis-bom clean-apis-common clean-apis-main clean-apis-ccc clean-apis-log clean-apis-web clean-apis-common clean-apis-bom clean-apis-emulator clean-apis-main_controller clean-apis-service_center clean-apis-tester
 
 
 run-apis-main-1:
@@ -109,8 +117,10 @@ run-apis-main_controller:
 	@sh runner.sh apis-main_controller/ '. venv/bin/activate && ./startMain.py'
 run-apis-service_center:
 	@sh runner.sh apis-service_center/ 'sh mongodb.sh && sh start.sh'
+run-apis-tester:
+	@sh runner.sh apis-tester/ '. venv/bin/activate && ./startTester.py'
 
-run: run-apis-service_center run-apis-emulator run-apis-main run-apis-ccc run-apis-log run-apis-web run-apis-main_controller
+run: run-apis-service_center run-apis-emulator run-apis-main run-apis-ccc run-apis-log run-apis-web run-apis-main_controller run-apis-tester
 
 
 stop-apis-main:
@@ -127,5 +137,7 @@ stop-apis-main_controller:
 	cd apis-main_controller/ && sh stop.sh
 stop-apis-service_center:
 	cd apis-service_center/ && sh stop.sh
+stop-apis-tester:
+	cd apis-tester/ && sh stop.sh
 
-stop: stop-apis-tester stop-apis-main_controller stop-apis-main stop-apis-ccc stop-apis-log stop-apis-web stop-apis-emulator
+stop: stop-apis-tester stop-apis-main_controller stop-apis-main stop-apis-ccc stop-apis-log stop-apis-web stop-apis-emulator stop-apis-service_center
