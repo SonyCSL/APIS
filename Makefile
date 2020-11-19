@@ -1,5 +1,4 @@
-
-GIT_BASE_URL=https://oes-github:0penEnergySystems@github.com/SonyCSL
+GIT_BASE_URL=git@oes-git:apis-oss
 
 
 apis-bom:
@@ -119,8 +118,10 @@ run-apis-service_center:
 	@sh runner.sh apis-service_center/ 'sh mongodb.sh && sh start.sh'
 run-apis-tester:
 	@sh runner.sh apis-tester/ '. venv/bin/activate && ./startTester.py'
+run-mongodb:
+	@sh runner.sh mongodb/ 'sh start.sh'
 
-run: run-apis-service_center run-apis-emulator run-apis-main run-apis-ccc run-apis-log run-apis-web run-apis-main_controller run-apis-tester
+run: run-mongodb run-apis-service_center run-apis-emulator run-apis-main run-apis-ccc run-apis-log run-apis-web run-apis-main_controller run-apis-tester
 
 
 stop-apis-main:
@@ -139,5 +140,8 @@ stop-apis-service_center:
 	cd apis-service_center/ && sh stop.sh
 stop-apis-tester:
 	cd apis-tester/ && sh stop.sh
+stop-mongodb:
+	cd mongodb/ && sh stop.sh
 
-stop: stop-apis-tester stop-apis-main_controller stop-apis-main stop-apis-ccc stop-apis-log stop-apis-web stop-apis-emulator stop-apis-service_center
+stop: stop-apis-tester stop-apis-main_controller stop-apis-main stop-apis-ccc stop-apis-log stop-apis-web stop-apis-emulator stop-apis-service_center stop-mongodb
+
