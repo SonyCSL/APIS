@@ -1,4 +1,4 @@
-GIT_BASE_URL=git@oes-git:apis-oss
+GIT_BASE_URL=https://oes-github:0penEnergySystems@github.com/SonyCSL
 
 
 apis-bom:
