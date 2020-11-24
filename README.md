@@ -88,7 +88,7 @@ The software that realizes the above technology and makes it possible to easily 
   It is assumed that the necessary software are installed.    
   The following is an example of advance preparation for Ubuntu 18.04.   
   * Install the JDK if it's not already installed.   
-  * Python3.6.9 or more is required. 
+  * Python3.6.9 or later is required. 
 ```bash
 $ sudo apt install git
 $ sudo apt install make
