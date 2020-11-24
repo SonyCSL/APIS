@@ -94,9 +94,8 @@ $ sudo apt install git
 $ sudo apt install make
 $ sudo apt install maven
 $ sudo apt install groovy
-$ sudo apt install virtualenv
-$ sudo apt install python
-$ sudo apt install python-pip
+$ sudo apt install python3-venv
+$ sudo apt install python3-pip
 ```
 
 [APIS related software bach installation]  
