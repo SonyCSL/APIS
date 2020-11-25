@@ -80,13 +80,13 @@ The software that realizes the above technology and makes it possible to easily 
   The above software has been tested on the following operating systems.  
   - Ubuntu 18.04, 20.04  
   - CentOS 7, 8   
-  - Mac (Catalina)
+  - macOS Catalina
  
  　* Virtual environments are not supported.  
  
  [Preparation]   
   It is assumed that the necessary software are installed.    
-  The following is an example of advance preparation for Ubuntu 18.04.   
+  The following is an example of an advance preparation for Ubuntu 18.04.   
   * Install the JDK if it's not already installed.   
   * Python3.6.9 or later is required. 
 ```bash
@@ -99,7 +99,7 @@ $ sudo apt install python3-pip
 ```
 
 [APIS related software bach installation]  
- Install all of the above APIS related software at once.   
+ Install all of the above APIS related software at .   
  See each software repository for the individual installation and execution of each software.    
  
  ```bash
