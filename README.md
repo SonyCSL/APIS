@@ -99,7 +99,7 @@ $ sudo apt install python3-pip
 ```
 
 [APIS related software bach installation]  
- Install all of the above APIS related software at .   
+ Install all of the above APIS related software at one time.   
  See each software repository for the individual installation and execution of each software.    
  
  ```bash
