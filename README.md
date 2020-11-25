@@ -143,7 +143,7 @@ $ make stop
 Use apis-dcdc_batt_comm instead of apis-emulator.  
  
  - [apis-dcdc_batt_comm](https://github.com/oes-github/apis-dcdc_batt_comm)  
-  Sample evice driver to control DC/DC converters and  batteries    
+  Sample device driver to control DC/DC converters and  batteries    
   See apis-dcdc_batt_comm's [Documentation](https://github.com/SonyCSL/apis-dcdc_batt_comm/blob/master/doc/en/apis-dcdc_batt_comm_specification_en.md) for more information. 
  - [apis-hw-info](https://github.com/SonyCSL/apis-hw-info)  
   Hardware reference information  
