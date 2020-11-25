@@ -71,7 +71,7 @@ The software that realizes the above technology and makes it possible to easily 
   Software that acquires necessary information for visualization from apis-main and provides it to apis-main_controller  
   See apis-web's [Documentation](https://github.com/SonyCSL/apis-web/blob/master/doc/jp/apis-web_specification.md) for more information. 
  - [apis-emulator](https://github.com/oes-github/apis-emulator)  
-  Software to emulate hardware such as DC/DC Converter and Battery   
+  Software to emulate hardware such as DC/DC converters and batteries   
   See apis-emulator's [Documentation](https://github.com/SonyCSL/apis-emulator/blob/master/doc/jp/apis-emulator_specification.md) for more information.  
   
  ## Installation  
