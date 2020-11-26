@@ -26,16 +26,16 @@ The software that realizes the above technology and makes it possible to easily 
 ### ▼ Software required to simulate energy exchange using a hardware emulator 
  - [apis-main](https://github.com/oes-github/apis-main)  
   Software installed on each node to provide bi-directional energy exchange with autonomous decentralized control   
-  See apis-main's [Documentation](https://github.com/SonyCSL/apis-main/blob/master/doc/jp/apis-main_specification.md) for more information.  
+  See apis-main's [Documentation](https://github.com/SonyCSL/apis-main/blob/master/doc/en/apis-main_specification_en.md) for more information.  
  - [apis-main_controller](https://github.com/SonyCSL/apis-main_controller)   
   Software that visualizes the status of apis-main installed on each node and the status of energy exchange between nodes  
-  See apis-main_controller's [Documentation](https://github.com/SonyCSL/apis-main_controller/blob/master/doc/jp/apis-main_controller_specification.md) for more information. 
+  See apis-main_controller's [Documentation](https://github.com/SonyCSL/apis-main_controller/blob/master/doc/en/apis-main-controller_specification_en.md) for more information. 
  - [apis-web](https://github.com/oes-github/apis-web)  
   Software that acquires necessary information for visualization from apis-main and provides it to apis-main_controller  
-  See apis-web's [Documentation](https://github.com/SonyCSL/apis-web/blob/master/doc/jp/apis-web_specification.md) for more information. 
+  See apis-web's [Documentation](https://github.com/SonyCSL/apis-web/blob/master/doc/en/apis-web_specification_en.md) for more information. 
  - [apis-emulator](https://github.com/oes-github/apis-emulator)  
   Software to emulate hardware such as DC/DC converters and batteries   
-  See apis-emulator's [Documentation](https://github.com/SonyCSL/apis-emulator/blob/master/doc/jp/apis-emulator_specification.md) for more information.  
+  See apis-emulator's [Documentation](https://github.com/SonyCSL/apis-emulator/blob/master/doc/en/apis-emulator_specification_en.md) for more information.  
   
  ## Installation  
  
