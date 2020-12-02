@@ -85,8 +85,8 @@ run: run-apis-emulator run-apis-main run-apis-web run-apis-main_controller
 
 stop-apis-main:
 	cd apis-main/exe/ && sh stop-kill.sh
-stop-apis-ccc:
-	cd apis-ccc/exe/ && sh stop-kill.sh
+stop-apis-web:
+	cd apis-web/exe/ && sh stop-kill.sh
 stop-apis-emulator:
 	cd apis-emulator/ && sh stop.sh
 stop-apis-main_controller:
