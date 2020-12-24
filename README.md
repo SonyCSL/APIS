@@ -36,16 +36,16 @@ The software that realizes the above technology and makes it possible to easily 
  - [apis-emulator](https://github.com/oes-github/apis-emulator)  
   Software to emulate hardware such as DC/DC converters and batteries   
   See apis-emulator's [Documentation](https://github.com/SonyCSL/apis-emulator/blob/master/doc/en/apis-emulator_specification_en.md) for more information.  
- - [apis-service_center](https://github.com/SonyCSL/apis-service_center)  (Added on December 25, 2020)  
+ - [apis-service_center](https://github.com/SonyCSL/apis-service_center)  (Added on December 24, 2020)  
   Software to provide information required by the administrators and users of clusters constructed of apis-main services installed in each unit.  
   See apis-service_center's [Documentation](https://github.com/SonyCSL/apis-service_center/blob/main/doc/en/apis-service_center_specification_EN.md) for more information.  
- - [apis-ccc](https://github.com/SonyCSL/apis-ccc)  (Added on December 25, 2020)  
+ - [apis-ccc](https://github.com/SonyCSL/apis-ccc)  (Added on December 24, 2020)  
   Software to uploade information that is related to energy sharing to apis-service_center.  
   See apis-ccc's [Documentation](https://github.com/SonyCSL/apis-ccc/blob/main/doc/en/apis-ccc_specification_EN.md) for more information. 
- - [apis-log](https://github.com/SonyCSL/apis-log)  (Added on December 25, 2020)  
+ - [apis-log](https://github.com/SonyCSL/apis-log)  (Added on December 24, 2020)  
   Software to receive information from apis-main by multicast via a communication line and storing that information in a database.  
   See apis-log's [Documentation](https://github.com/SonyCSL/apis-log/blob/main/doc/en/apis-log_specification_EN.md) for more information. 
- - [apis-tester](https://github.com/SonyCSL/apis-tester)  (Added on December 25, 2020)  
+ - [apis-tester](https://github.com/SonyCSL/apis-tester)  (Added on December 24, 2020)  
   Software to test and evaluation of apis-main.  
   See apis-tester's [Documentation](https://github.com/SonyCSL/apis-tester/blob/main/doc/en/apis-tester_specification_EN.md) for more information. 
   
