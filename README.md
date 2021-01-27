@@ -24,16 +24,16 @@ Software with the same functions is installed in each battery system, and the so
 The software that realizes the above technology and makes it possible to easily construct a DC microgrid is released.  
 
 ### ▼ Software required to simulate energy exchange using a hardware emulator 
- - [apis-main](https://github.com/oes-github/apis-main)  
+ - [apis-main](https://github.com/SonyCSL/apis-main)  
   Software installed on each node to provide bi-directional energy exchange with autonomous decentralized control   
   See apis-main's [Documentation](https://github.com/SonyCSL/apis-main/blob/master/doc/en/apis-main_specification_en.md) for more information.  
  - [apis-main_controller](https://github.com/SonyCSL/apis-main_controller)   
   Software that visualizes the status of apis-main installed on each node and the status of energy exchange between nodes  
   See apis-main_controller's [Documentation](https://github.com/SonyCSL/apis-main_controller/blob/master/doc/en/apis-main-controller_specification_en.md) for more information. 
- - [apis-web](https://github.com/oes-github/apis-web)  
+ - [apis-web](https://github.com/SonyCSL/apis-web)  
   Software that acquires necessary information for visualization from apis-main and provides it to apis-main_controller  
   See apis-web's [Documentation](https://github.com/SonyCSL/apis-web/blob/master/doc/en/apis-web_specification_en.md) for more information. 
- - [apis-emulator](https://github.com/oes-github/apis-emulator)  
+ - [apis-emulator](https://github.com/SonyCSL/apis-emulator)  
   Software to emulate hardware such as DC/DC converters and batteries   
   See apis-emulator's [Documentation](https://github.com/SonyCSL/apis-emulator/blob/master/doc/en/apis-emulator_specification_en.md) for more information.  
  - [apis-service_center](https://github.com/SonyCSL/apis-service_center)  (Added on December 24, 2020)  
@@ -128,9 +128,12 @@ $ make stop
 ### ▼ Software and hardware information required for energy exchange using actual DC/DC converters and batteries
 Use apis-dcdc_batt_comm instead of apis-emulator.  
  
- - [apis-dcdc_batt_comm](https://github.com/oes-github/apis-dcdc_batt_comm)  
+ - [apis-dcdc_batt_comm](https://github.com/SonyCSL/apis-dcdc_batt_comm)  
   Sample device driver to control DC/DC converters and  batteries    
-  See apis-dcdc_batt_comm's [Documentation](https://github.com/SonyCSL/apis-dcdc_batt_comm/blob/master/doc/en/apis-dcdc_batt_comm_specification_en.md) for more information. 
+  See apis-dcdc_batt_comm's [Documentation](https://github.com/SonyCSL/apis-dcdc_batt_comm/blob/master/doc/en/apis-dcdc_batt_comm_specification_en.md) for more information.  
+ - [apis-build_version_up_system](https://github.com/SonyCSL/apis-build_version_up_system)  
+ This tool clones all of the software needed to build the APIS evaluation environment from GitHub/Sony CSL in a single batch, builds the software, generates the various configuration files required for APIS operation according to the configuration file, and then installs all of the software on multiple nodes.
+  See apis-build_version_up_systems's [Documentation](https://github.com/SonyCSL/apis-build_version_up_system/blob/main/doc/en/apis-build_version_up_system_specification_EN.md) for more information.  
  - [apis-hw-info](https://github.com/SonyCSL/apis-hw-info)  
   Hardware reference information  
   See apis-hw-info's [Documentation](https://github.com/SonyCSL/apis-hw-info/blob/main/MAIN-DOCUMENT_EN.md) for more information.
